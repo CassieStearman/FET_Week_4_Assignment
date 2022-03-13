@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+
+   
+    <br>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-list-name">Create New Inventory List</label>
+                        <input type="text" class="form-control" id="new-list-name">
+                    </div>
+                </div>
+            </div>
+            <div>
+              <button id="new-list" class="btn btn-info form-control">Add New Inventory List</button> 
+            </div>
+        </div>
+    </div><br>
+
+    <!--This is where the lists will be stored-->
+    <div id="lists">
+
+    </div>
+
+    <img class="img-fluid" src="https://quickbooks.intuit.com/oidam/intuit/sbseg/en_us/Blog/Illustration/inventory-analysis-optimize-operations-header-image-2x-us-en.jpg" alt="person doing inventory">
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>  
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
